@@ -1,7 +1,6 @@
 
 /*
 The Marcus Hodges Ghetto Odometer
-What's cool is Arduino doesn't tell time on its own so that's silly
 */
 
 #include <limits.h>
@@ -35,7 +34,7 @@ void setup() {
   // figure out the highest numbered file so far
   File root = SD.open("/");
   while(File entry =  root.openNextFile()) {
-    Serial.println(entry.name());
+    //Serial.println(entry.name());
     int fileIdTmp = strtol(entry.name(),NULL,10);
     if(fileIdTmp > fileId) {
       fileId = fileIdTmp;
@@ -61,7 +60,7 @@ void setup() {
 void loop(){
   int sensorVal = digitalRead(inPin);
   if(sensorVal == 0) {
-    int click = millis();
+    unsigned long click = millis();
     Serial.println(click);
     // write to file
     if(tripFile) {
