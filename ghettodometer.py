@@ -9,30 +9,29 @@
 import sys
 
 if len(sys.argv) < 3:
-  print "ghettodometer.py <filename> <spoke diameter>"
+  print "ghettodometer.py <filename> <wheel diameter>"
+  print " (measure center of hub to ground)"
   sys.exit(1)
 
 filename = sys.argv[1]
-spoke_diameter = sys.argv[2]
+wheel_diameter = float(sys.argv[2])
 
-
-f = open(filename, 'r')
 first = 0
 last = 0
 revolutions = 0
 
+f = open(filename, 'r')
 for line in f:
-  print "diff: %d" % (int(line) - last)
   if not first:
     first = int(line)
   revolutions = revolutions+1
   last = int(line)
 
-print "first %d, last %d, revolutions %d" % (first, last, revolutions)
+print "Assuming %0.02f cm from center of hub to ground..." % (wheel_diameter)
 
 # figure distance traveled
 pi = 3.1415
-circumference = float(spoke_diameter) * 2.0 * pi
+circumference = wheel_diameter * 2.0 * pi
 distance = circumference * revolutions
 km = distance / 100000
 
