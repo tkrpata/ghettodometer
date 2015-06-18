@@ -22,7 +22,7 @@ You need (I used):
 
 I should mention also that if you want to be more classy (THOUGH I DON'T), pretty much every 80's 10 speed has an abandoned speedometer sensor attached to it that you can probably scavenge for freeinstead of using the magnet/sensor/wire.
 
-[image src=http://i.imgur.com/T4PCyWj.jpg]
+![](http://i.imgur.com/T4PCyWj.jpg)
 
 Long story short you're gonna wire up the hall effect sensor to one of the Arduino's digital pins and mount it on the bike like so. 
 
