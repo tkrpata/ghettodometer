@@ -20,24 +20,25 @@ You need (I used):
 * Some wire probably  
 * Tape or zip ties or whatever
 
-I should mention also that if you want to be more classy (THOUGH I DON'T), pretty much every 80's 10 speed has an abandoned speedometer sensor attached to it that you can probably scavenge for freeinstead of using the magnet/sensor/wire.
+I should mention also that if you want to be more classy (THOUGH I DON'T), pretty much every 80's 10 speed has an abandoned speedometer sensor attached to it that you can probably scavenge for free instead of using the magnet/sensor/wire.
 
-[image src=http://i.imgur.com/T4PCyWj.jpg]
+![](http://i.imgur.com/T4PCyWj.jpg)
 
 Long story short you're gonna wire up the hall effect sensor to one of the Arduino's digital pins and mount it on the bike like so. 
 
-[image src=http://i.imgur.com/16uPBj2.jpg]
+![](http://i.imgur.com/16uPBj2.jpg)
 
 Lookin real good there.
 
-[image src=http://i.imgur.com/6EvjO27.jpg]
+![](http://i.imgur.com/6EvjO27.jpg)
 
 Power switch on front. Sensor goes around back. 
 
-[image src=http://i.imgur.com/XLD7DF1.jpg]
-[image src=http://i.imgur.com/AoRUEmg.jpg]
+![](http://i.imgur.com/XLD7DF1.jpg)
 
 Made it to my destination intact!
+
+![](http://i.imgur.com/AoRUEmg.jpg)
 
 You can see where the sensor goes here. I didn't bother taping it down or anything, the solid core wires stay in place pretty well. 
 
