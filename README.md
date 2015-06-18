@@ -26,16 +26,16 @@ I should mention also that if you want to be more classy (THOUGH I DON'T), prett
 
 Long story short you're gonna wire up the hall effect sensor to one of the Arduino's digital pins and mount it on the bike like so. 
 
-[image src=http://i.imgur.com/16uPBj2.jpg]
+![](image src=http://i.imgur.com/16uPBj2.jpg)
 
 Lookin real good there.
 
-[image src=http://i.imgur.com/6EvjO27.jpg]
+![](image src=http://i.imgur.com/6EvjO27.jpg)
 
 Power switch on front. Sensor goes around back. 
 
-[image src=http://i.imgur.com/XLD7DF1.jpg]
-[image src=http://i.imgur.com/AoRUEmg.jpg]
+![](image src=http://i.imgur.com/XLD7DF1.jpg)
+![](image src=http://i.imgur.com/AoRUEmg.jpg)
 
 Made it to my destination intact!
 
