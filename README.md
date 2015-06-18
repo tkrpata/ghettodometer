@@ -35,9 +35,10 @@ Lookin real good there.
 Power switch on front. Sensor goes around back. 
 
 ![](http://i.imgur.com/XLD7DF1.jpg)
-![](http://i.imgur.com/AoRUEmg.jpg)
 
 Made it to my destination intact!
+
+![](http://i.imgur.com/AoRUEmg.jpg)
 
 You can see where the sensor goes here. I didn't bother taping it down or anything, the solid core wires stay in place pretty well. 
 
